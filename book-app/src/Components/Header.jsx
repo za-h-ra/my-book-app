@@ -6,9 +6,8 @@ const Nav = styled.div`
 	align-items: center;
 	justify-content: flex-end;
 	padding: 20px;
-	background-color: #FFC75E;
-    box-shadow: 0px 0px 10px rgb(158, 158, 158);
-    z-index: -1;
+	background-color: #ffc75e;
+	box-shadow: 0px 0px 10px rgb(158, 158, 158);
 `
 
 const Heading = styled.h1`
@@ -17,8 +16,8 @@ const Heading = styled.h1`
 `
 
 const NavList = styled.div`
-    display: flex;
-    justify-content: space-around;
+	display: flex;
+	justify-content: space-around;
 `
 
 const List = styled.li`
