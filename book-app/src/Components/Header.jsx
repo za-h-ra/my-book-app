@@ -2,16 +2,18 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Nav = styled.div`
-	background-color: red;
 	display: flex;
 	align-items: center;
-    justify-content: flex-end;
-    padding: 20px;
+	justify-content: flex-end;
+	padding: 20px;
+	background-color: #FFC75E;
+    box-shadow: 0px 0px 10px rgb(158, 158, 158);
+    z-index: -1;
 `
 
 const Heading = styled.h1`
-    display: flex;
-    margin: 0 auto 0 5px;
+	display: flex;
+	margin: 0 auto 0 5px;
 `
 
 const NavList = styled.div`
