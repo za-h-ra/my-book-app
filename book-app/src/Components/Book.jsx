@@ -3,21 +3,16 @@ import styled from 'styled-components'
 
 const BookContainer = styled.div`
 	border: 5px solid #ff9672;
-	margin: 30px;
+	width: 60%;
+	min-width: 300px;
 	padding: 20px;
-    background-color: #ffc75e;
-    min-height: 50vh;
-    width: 60%;
-    display: flex;
-    flex-flow: column;
-    justify-content: space-around;
-    align-items: center;
-    
+	margin: 20px;
+	background-color: #ffc75e;
 `
 
 const BookTitle = styled.h1`
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 `
 
 const BookContent = styled.div`
